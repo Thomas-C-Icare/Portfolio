@@ -17,8 +17,8 @@ const Header = ({language, setLanguage}) => {
         <HeaderSocials language={language} setLanguage={setLanguage} />
         <HeaderLanguage language={language} setLanguage={setLanguage} />
       {/* TODO: regler image qui change de taille quand on reduit l'ecran */}
-        <div className='me me__main-page'>
-          <img src={ME} alt="of myself" className="me__main-page"/>
+        <div className='me'>
+          <img src={ME} alt="of myself" className="me"/>
         </div >
 
       </div>

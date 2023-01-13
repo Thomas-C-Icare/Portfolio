@@ -1,5 +1,4 @@
-* { outline: none !important; }
-a, a:visited, a:hover, a:active { text-decoration: none; color: inherit; }
+
 
 .portfolio__container {
     display: grid;
@@ -22,7 +21,14 @@ a, a:visited, a:hover, a:active { text-decoration: none; color: inherit; }
     border-color: var(--color-primary-variant);
     background: transparent;
 }
-
+.portfolio__button {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    transition: var(--transition);
+}
+.portfolio__button:hover {
+    color: var(--color-white);
+}
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;

@@ -164,7 +164,7 @@ const Snake = ({language, gameStarted, setGameStarted, openSnake, direction, set
               <span>D</span>
             </div>
           </div>
-          <p className={openSnake && gameStarted ? "hidden": ""}>Dernier score : {snakeDotsGameOver.length }</p>
+          <p className={openSnake && gameStarted ? "hidden": ""}>{language === 'fr' ? "Dernier score" : "Last score"} : {snakeDotsGameOver.length }</p>
         </div>
         <Food snakeFood={snakeFood} setSnakeFood={setSnakeFood}/>
       </div>

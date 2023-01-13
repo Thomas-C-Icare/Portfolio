@@ -57,7 +57,7 @@ const Portfolio = ({language, setLanguage}) => {
               />
             </div>
             <div className="portfolio__item-cta">
-              <button className='btn btn-primary ' onClick={() => {setOpenSnake(!openSnake)}} >Open/close</button>
+              <button className='btn  btn-primary portfolio__button' onClick={() => {setOpenSnake(!openSnake)}} >Open/close</button>
             </div>
         </article>
         <article className="portfolio__item">

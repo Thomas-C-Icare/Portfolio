@@ -95,7 +95,7 @@ const Experience = ({language, setLanguage}) => {
         </div>
         {/* JOBS  */}
         <div className='experience__backend'>
-          <h3>{language === 'fr' ? "TRAVAIL":"JOB"}</h3>
+          <h3>{language === 'fr' ? "Travail":"Job's"}</h3>
           {/* TODO:mettre les jobs */}
           <div className="experience__content">
             <article className='experience__details'>
@@ -138,7 +138,7 @@ const Experience = ({language, setLanguage}) => {
         </div>
         {/* STUDY */}
         <div className='experience__backend'>
-          <h3>{language === 'fr' ? "ETUDE":"STUDY"}</h3>
+          <h3>{language === 'fr' ? "Etude":"Education"}</h3>
         {/* TODO:mettre les etudes */}
         <div className="experience__content">
             <article className='experience__details'>

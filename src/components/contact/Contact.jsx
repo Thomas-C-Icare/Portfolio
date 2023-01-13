@@ -7,6 +7,7 @@ import {HiOutlineMailOpen} from 'react-icons/hi'
 
 const Contact = ({language, setLanguage}) => {
   const form = useRef();
+  const encodedMail = atob("dGhvbWFzLmNhbXBvMDhAZ21haWwuY29t")
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -23,7 +24,7 @@ const Contact = ({language, setLanguage}) => {
             <article className="contact__option">
                 <HiOutlineMailOpen  className="contact__option-icon"/>
                 <h4>Email</h4>
-                <h5>Thomas.campo08@gmail.com</h5>
+                <h5>{encodedMail}</h5>
                 <a href="mailto:thomas.campo08@gmail.com" target="_blank" rel="noreferrer">{language === 'fr' ? "M'envoyer un message":"Send me a message"}</a>
             </article>
             {/* <article className="contact_option">
