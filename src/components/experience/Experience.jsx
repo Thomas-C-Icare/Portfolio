@@ -18,7 +18,7 @@ const Experience = ({language, setLanguage}) => {
       <div className='container experience__container'>
         {/* FRONT END */}
         <div className='experience__frontend'>
-          <h3>Frontend development</h3>
+          <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
@@ -53,7 +53,7 @@ const Experience = ({language, setLanguage}) => {
         </div>
         {/* BACK END */}
         <div className='experience__backend'>
-          <h3>Backend development</h3>
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
@@ -95,7 +95,7 @@ const Experience = ({language, setLanguage}) => {
         </div>
         {/* JOBS  */}
         <div className='experience__backend'>
-          <h3>{language === 'fr' ? "Travail":"Job's"}</h3>
+          <h3>{language === 'fr' ? "Travail":"Professional Experience"}</h3>
           {/* TODO:mettre les jobs */}
           <div className="experience__content">
             <article className='experience__details'>
