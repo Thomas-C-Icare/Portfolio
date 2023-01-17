@@ -16,7 +16,7 @@ const Contact = ({language, setLanguage}) => {
   };
   return (
     <section id='contact'>
-      <h5>{language === 'fr' ? "On reste en contacte":"Get in touch"}</h5>
+      <h5>{language === 'fr' ? "On reste en contact":"Get in touch"}</h5>
       <h2>{language === 'fr' ? "Me contacter":"Contact me"}</h2>
 
       <div className="container contact__container">
@@ -35,7 +35,7 @@ const Contact = ({language, setLanguage}) => {
             </article> */}
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder={language === 'fr' ? "Votre nom/prenom":"Your full name"} required/>
+          <input type="text" name="name" placeholder={language === 'fr' ? "Votre nom/prénom":"Your full name"} required/>
           <input type="email" name="email" placeholder={language === 'fr' ? "Votre mail":"Your email"} required/>
           <textarea name="message"  rows="7" placeholder={language === 'fr' ? "Votre message":"Your message"} required></textarea>
           <button type="submit" className="btn btn-primary">{language === 'fr' ? "Envoyer":"Send message"}</button>

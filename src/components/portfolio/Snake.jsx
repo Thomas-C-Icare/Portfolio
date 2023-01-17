@@ -20,21 +20,27 @@ const Snake = ({language, gameStarted, setGameStarted, openSnake, direction, set
       e = window.event;
       switch (e.keyCode) {
         case 90:
+          if(direction !== 'DOWN')
             setDirection( 'UP')
           break;
         case 83:
+          if(direction !== 'UP')
             setDirection('DOWN')
           break;
         case 81:
+          if(direction !== 'RIGHT')
             setDirection('LEFT')
           break;
         case 68:
+          if(direction !== 'LEFT')
             setDirection('RIGHT') 
           break;
         case 87:
+          if(direction !== 'DOWN')
             setDirection( 'UP')
           break;
         case 65:
+          if(direction !== 'LEFT')
             setDirection('RIGHT') 
           break;
         case 13:
