@@ -50,7 +50,7 @@ const Portfolio = ({language, setLanguage}) => {
     }
   return (
     <section id='portfolio'>
-      <h5>{language === 'fr' ? "Mes projets recent":"My recent work"}</h5>
+      <h5>{language === 'fr' ? "Mes projets récents":"My recent work"}</h5>
       <h2>Portfolio</h2>
       <h5 className='work__in_progess_h5'><BsFillExclamationDiamondFill /> Work in progress
       </h5>

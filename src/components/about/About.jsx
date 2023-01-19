@@ -41,7 +41,7 @@ const About = ({language, setLanguage}) => {
               Salut, je m'appelle Thomas et je suis développeur web.
             </p>
             <p >
-               J'ai obtenu mon diplôme en informatique et j'ai commencé ma carrière professionnelle en tant que technicien en hotline chez Free. En parallèle, j'ai appris le C# en autodidacte, et me suis découvert une passion pour la progammation.
+               J'ai obtenu mon diplôme en informatique et j'ai commencé ma carrière professionnelle en tant que technicien en hotline chez Free. En parallèle, j'ai appris le C# en autodidacte, et me suis découvert une passion pour la programmation.
             </p>
             <p>
               Afin d'approfondir mes connaissances en développement web, j'ai souhaité suivre une formation en JavaScript. Je suis maintenant compétent en développement web front-end et back-end, et j'aime mettre en pratique mes compétences pour créer des applications utiles(ou pas).

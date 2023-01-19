@@ -12,8 +12,8 @@ import {GiStoneCrafting} from 'react-icons/gi'
 const Experience = ({language, setLanguage}) => {
   return (
     <section id='experience'>
-      <h5>{language === 'fr' ? "Mes competences":"What skills i have"} </h5>
-      <h2>{language === 'fr' ? "Mon experience":"My experience"}</h2>
+      <h5>{language === 'fr' ? "Mes compétences":"What skills i have"} </h5>
+      <h2>{language === 'fr' ? "Mon expérience":"My experience"}</h2>
 
       <div className='container experience__container'>
         {/* FRONT END */}
